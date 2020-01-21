@@ -1,3 +1,4 @@
+tools to handle git visually:
 GitKraken
 Git-cola
 Git GUI
