@@ -1,0 +1,28 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("enter the number");
+		int a= Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("enter array");
+		int[] array = new int[a];
+		for(int i=0;i<a;i++)
+		{
+			array[i]= Convert.ToInt32(Console.ReadLine());
+		}
+		for(int i=0; i<a;i++)
+		{
+			if (array[i]%2==0)
+			{
+				Console.WriteLine(array[i]++);
+			}
+			else
+			{
+				Console.WriteLine(array[i]--);
+			}
+				
+		}
+	}
+}
