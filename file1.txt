@@ -1,0 +1,5 @@
+GitKraken
+Git-cola
+Git GUI
+SmartGit
+GitForce

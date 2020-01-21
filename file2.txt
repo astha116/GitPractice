@@ -1,0 +1,6 @@
+git push -u origin master:
+
+Git push command can be taken as uploading the content to the remote repository.
+push -u origin master -> The term push origin master is used to push the changes to the remote repository.
+Origin master -> It is used to deal with a remote repository(the one which we created in github) and master(main) branch.
+-u -> Adds tracking reference.
